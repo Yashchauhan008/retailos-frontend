@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Local env only — keep .env.production tracked (public VITE_* URLs)
+.env
+.env.local
+.env.development
+.env.development.local
+.env.*.local
+.env.prod
+.env.dev
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
